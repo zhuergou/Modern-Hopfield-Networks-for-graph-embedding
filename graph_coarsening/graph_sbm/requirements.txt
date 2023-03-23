@@ -1,0 +1,8 @@
+scipy==1.5.2
+six==1.11.0
+numpy==1.19.1
+torch==1.6.0
+PyYAML==5.4.1
+NetLSD==1.0.2
+networkx==2.5
+scikit-learn==0.22.2
