@@ -1,5 +1,3 @@
-# Source codes for AISTATS 2020 Paper "Graph Coarsening with Preserved Spectral Properties"
-
 
 ## Installation
 1. Download the software package
@@ -36,31 +34,7 @@ The default setting is
 python main_classification.py --dataset MUTAG --method hopfield --ratio 0.2
 ```
 
-### Block recovery of random graphs from stochastic block model. 
 
-`main_sbm.py` contains the experimental codes for graph classification for coarse graphs. 
-The basic usage is 
-```
-python main_sbm.py
-```
-The parameter options are
-
--sbm_type: associative, dissociative, mixed
-
--method: mgc, sgc, hopfield
-
--N, node size of original graphs
-
--n, node size of coarse graphs
-
--p, edge probability between nodes within the same blocks
-
--q, edge probability between nodes in different blocks
-
-The default setting is 
-```
-python main_sbm.py --sbm_type associative --method mgc --N 200 --n 10 --p 0.5 --q 0.1 --max_trials 10
-```
 
 
 
