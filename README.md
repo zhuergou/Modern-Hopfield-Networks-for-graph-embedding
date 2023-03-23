@@ -1,4 +1,4 @@
-Code & data accompanying the Frontier paper "Modern Hopfield Networks for graph embedding".
+#Code & data accompanying the Frontier paper "Modern Hopfield Networks for graph embedding".
 
 if you find this code useful, please cite:
 
