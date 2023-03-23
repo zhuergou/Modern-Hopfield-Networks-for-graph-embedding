@@ -15,6 +15,6 @@ the output embedding will be saved as bio_embedding_2000_pos.txt, and the parame
 
 
 ###
-All the saved checkpoint in our model for the paper can be found in tmp_rst
+All the saved checkpoint in our model for the paper can be found in tmp_rst (https://drive.google.com/drive/folders/1LlwPxJOZoPYRpH2WUtCLplW1DeSPnif4?usp=sharing)
 
 
