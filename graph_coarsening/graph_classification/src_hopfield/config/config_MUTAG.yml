@@ -1,0 +1,35 @@
+##data dir
+#graph_dir: './airfoil.npz'
+#out_dir: './out_airfoil_1275'
+#out_dir: null
+pretrained: null
+#pretrained: './out_airfoil_1275'
+#out_embedding_file: './bio_embedding_1275_airfoil.txt'
+
+##training
+random_seed: 1234
+max_epochs: 100
+learning_rate: 0.01
+grad_clipping: 10
+cuda_id: 1
+no_cuda: False
+
+##hopfield
+#4253*0.7 = 2977
+#4253*0.5 = 2126
+#4253*0.3 = 1275
+#4253*0.1 = 425
+#hidden_unit: 1275
+layer: 1
+alpha: 0.4
+#beta: 1
+init_beta1: 1
+init_beta2: 1
+
+##debug
+save_params: True
+logging: True
+
+
+
+
