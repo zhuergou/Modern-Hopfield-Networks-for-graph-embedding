@@ -20,7 +20,7 @@ python main_sbm.py
 ```
 The parameter options are
 
--sbm_type: associative, dissociative, mixed
+-sbm_type: associative
 
 -method: hopfield
 
