@@ -1,9 +1,12 @@
+Code & data accompanying the Frontier paper "Modern Hopfield Networks for graph embedding".
 
-src_associate_embedding: This directory runs the our hopfield model to
-construct the node embeddings, as described in sec 3. 
+If you find this useful, please cite:
 
-src_embedding_eval: used to generate the node classification results in Table 3.
-
-src_linkage_prediction: code to replicate the link prediction results in Table 4.
-
-src_hopfield_module_boosting: used to replicate Table 5
+@article{liang2022modern,
+  title={Modern Hopfield Networks for graph embedding},
+  author={Liang, Yuchen and Krotov, Dmitry and Zaki, Mohammed J},
+  journal={Frontiers in big Data},
+  volume={5},
+  year={2022},
+  publisher={Frontiers Media SA}
+}
