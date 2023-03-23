@@ -25,7 +25,7 @@ Parameter options are
 
 -dataset: MUTAG, ENZYMES, NCI1, NCI109, PROTEINS, PTC
 
--method: mgc, sgc, hopfield
+-method: hopfield
 
 -ratio, the ratio between coarse and original graphs n/N
 
