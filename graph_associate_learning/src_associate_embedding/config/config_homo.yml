@@ -1,0 +1,31 @@
+##data dir
+graph_dir: '../data/Homo_sapiens.mat'
+out_dir: './out_homo/hopfield_deep'
+pretrained: null
+out_embedding_file: './bio_embedding_2000_homo.txt'
+
+##training
+random_seed: 1234
+max_epochs: 2000
+learning_rate: 0.01
+grad_clipping: 10
+cuda_id: 0
+no_cuda: False
+
+##hopfield
+hidden_unit: 2000
+layer: 7
+beta: 1
+top_value: 1500
+top_k: 15
+init_beta1: 1
+init_beta2: 0.5
+update_rate: 0.2
+
+##debug
+save_params: True
+logging: True
+
+
+
+

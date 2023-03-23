@@ -1,0 +1,32 @@
+##data dir
+graph_dir: '../data/POS.mat'
+out_dir: './out_pos/hopfield_deep'
+pretrained: null
+out_embedding_file: './bio_embedding_2000_pos.txt'
+
+##training
+random_seed: 1234
+max_epochs: 2000
+learning_rate: 0.01
+grad_clipping: 10
+cuda_id: 0
+no_cuda: False
+
+##hopfield
+hidden_unit: 2000
+layer: 7
+beta: 1.5
+top_value: 1500
+init_beta1: 1
+init_beta2: 0.5
+top_k: 5
+update_rate: 1
+
+
+##debug
+save_params: True
+logging: True
+
+
+
+

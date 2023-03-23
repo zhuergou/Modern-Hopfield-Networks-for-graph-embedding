@@ -1,0 +1,30 @@
+##data dir
+graph_dir: '../data/blogcatalog.mat'
+out_dir: './out_blog_2000/hopfield_deep'
+#out_dir: null
+pretrained: null
+#pretrained: './out_blog_2000/hopfield_deep'
+out_embedding_file: './bio_embedding_2000_blogcatalog.txt'
+
+##training
+random_seed: 1234
+max_epochs: 100
+learning_rate: 0.001
+grad_clipping: 10
+cuda_id: 0
+no_cuda: False
+
+##hopfield
+hidden_unit: 2000
+layer: 1
+#beta: 1
+init_beta1: 1
+init_beta2: 1
+
+##debug
+save_params: True
+logging: True
+
+
+
+
