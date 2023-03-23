@@ -1,7 +1,7 @@
 Code & data accompanying the Frontier paper "Modern Hopfield Networks for graph embedding".
 
 @article{liang2022modern,\
-  title={Modern Hopfield Networks for graph embedding},
+    title={Modern Hopfield Networks for graph embedding},
   author={Liang, Yuchen and Krotov, Dmitry and Zaki, Mohammed J},
   journal={Frontiers in big Data},
   volume={5},
