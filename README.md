@@ -2,6 +2,7 @@
 
 if you find this code useful, please cite:
 
+```
 @article{liang2022modern,
   title={Modern Hopfield Networks for graph embedding},
   author={Liang, Yuchen and Krotov, Dmitry and Zaki, Mohammed J},
@@ -10,3 +11,4 @@ if you find this code useful, please cite:
   year={2022},
   publisher={Frontiers Media SA}
 }
+```
